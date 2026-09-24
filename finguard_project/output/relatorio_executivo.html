@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinGuard — Dashboard Executivo</title>
+<style>
+  :root {
+    --bg: #f8fafc; --card: #ffffff; --text: #1e293b; --muted: #64748b;
+    --primary: #0f4c75; --accent: #1b9aaa; --danger: #dc2626;
+    --warning: #d97706; --success: #059669; --border: #e2e8f0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  header { background: linear-gradient(135deg, var(--primary), #3282b8); color: white; padding: 2rem; border-radius: 12px; margin-bottom: 2rem; }
+  header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  header p { opacity: 0.9; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+  .card { background: var(--card); border-radius: 10px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid var(--border); }
+  .card h3 { color: var(--primary); margin-bottom: 1rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-number { font-size: 2.5rem; font-weight: 700; color: var(--primary); }
+  .stat-label { color: var(--muted); font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
+  th, td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+  th { background: #f1f5f9; color: var(--primary); font-weight: 600; }
+  tr:hover { background: #f8fafc; }
+  .badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; }
+  .badge-critico { background: #fef2f2; color: var(--danger); }
+  .badge-alto { background: #fffbeb; color: var(--warning); }
+  .badge-medio { background: #ecfdf5; color: var(--success); }
+  .badge-baixo { background: #eff6ff; color: var(--primary); }
+  .insight-box { background: #f0f9ff; border-left: 4px solid var(--accent); padding: 1rem 1.5rem; border-radius: 0 8px 8px 0; margin-bottom: 1rem; }
+  .recommendation { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+  .recommendation:last-child { border-bottom: none; }
+  .finops-table td:nth-child(2) { text-align: right; font-family: monospace; }
+  footer { text-align: center; color: var(--muted); padding: 2rem; font-size: 0.85rem; }
+  @media (max-width: 768px) { .container { padding: 1rem; } .stat-number { font-size: 1.8rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🛡️ FinGuard — Dashboard Executivo</h1>
+    <p>Relatório gerado em 2026-09-23T21:58:56.739145 | 38 reclamações processadas | Grupo 14</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Total Processadas</h3>
+      <div class="stat-number">38</div>
+      <div class="stat-label">2 bloqueadas | 0 erros</div>
+    </div>
+    <div class="card">
+      <h3>Custo Total (FinOps)</h3>
+      <div class="stat-number">USD 0.0000</div>
+      <div class="stat-label">77 chamadas | 134,065 tokens</div>
+    </div>
+    <div class="card">
+      <h3>Tempo de Execução</h3>
+      <div class="stat-number">2484.8s</div>
+      <div class="stat-label">Custo/reclamação: USD 0.0000</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Distribuição por Categoria</h3>
+      <table>
+        <tr><th>Categoria</th><th>Qtd</th></tr>
+        <tr><td>Atendimento</td><td>13</td></tr><tr><td>Produto/Serviço</td><td>8</td></tr><tr><td>Cobrança Indevida</td><td>5</td></tr><tr><td>Fraude/Segurança</td><td>4</td></tr><tr><td>N/A</td><td>4</td></tr><tr><td>Outros</td><td>3</td></tr><tr><td>Cancelamento</td><td>1</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Distribuição por Urgência</h3>
+      <table>
+        <tr><th>Urgência</th><th>Qtd</th></tr>
+        <tr><td>Alta</td><td>26</td></tr><tr><td>Crítica</td><td>5</td></tr><tr><td>N/A</td><td>4</td></tr><tr><td>Baixa</td><td>3</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Distribuição por Risco</h3>
+      <table>
+        <tr><th>Nível</th><th>Qtd</th></tr>
+        <tr><td>N/A</td><td>38</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom: 2rem;">
+    <h3>Resumo Executivo</h3>
+    <div class="insight-box">O relatório revela que 38 reclamações foram processadas, com uma distribuição de 13 em Atendimento, 8 em Produto/Serviço, 5 em Cobrança Indevida, 4 em Fraude/Segurança e 4 em N/A. A análise por produto indica que a Conta Corrente e Seguros são os mais frequentes. Os sentimentos mais comuns são negativos, seguidos de N/A e neutro. A urgência é alta em 26 casos, e o nível de risco é N/A em todos os casos. A recomendação é aumentar a capacidade de análise de risco e melhorar a comunicação para casos de alto risco.</div>
+    <h3 style="margin-top: 1rem;">Tendências Identificadas</h3>
+    <div class="insight-box">A alta quantidade de reclamações de alto risco e a falta de categorias específicas em muitos casos indicam a necessidade de melhorias no sistema de classificação de reclamações e na análise de risco.</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>⚠️ Alertas Críticos</h3>
+      <div class="recommendation">🔴 A alta quantidade de reclamações de alto risco (38) indica necessidade de atenção imediata</div><div class="recommendation">🔴 A falta de categorias específicas em 40% dos casos indica a necessidade de revisão do sistema de classificação</div><div class="recommendation">🔴 A falta de categorias específicas em 40% dos casos indica a necessidade de revisão do sistema de classificação</div>
+    </div>
+    <div class="card">
+      <h3>📋 Recomendações</h3>
+      <div class="recommendation">✅ Aumentar a capacidade de análise de risco</div><div class="recommendation">✅ Melhorar a comunicação para casos de alto risco</div><div class="recommendation">✅ Investir em treinamento de atendimento ao cliente</div><div class="recommendation">✅ Ajustar estratégias de prevenção de fraudes</div><div class="recommendation">✅ Refinar processos de classificação de reclamações</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom: 2rem;">
+    <h3>🔥 Reclamações Críticas (Top 10)</h3>
+    <table>
+      <tr><th>ID</th><th>Categoria</th><th>Produto</th><th>Urgência</th><th>Risco</th><th>Resumo</th></tr>
+      
+    </table>
+  </div>
+
+  <div class="card" style="margin-bottom: 2rem;">
+    <h3>💰 Análise FinOps Detalhada</h3>
+    <table class="finops-table">
+      <tr><th>Métrica</th><th>Valor</th></tr>
+      <tr><td>Total de chamadas LLM</td><td>77</td></tr>
+      <tr><td>Tokens de entrada</td><td>104,226</td></tr>
+      <tr><td>Tokens de saída</td><td>29,839</td></tr>
+      <tr><td>Total de tokens</td><td>134,065</td></tr>
+      <tr><td>Custo total estimado</td><td>USD 0.0000</td></tr>
+      <tr><td>Custo por reclamação</td><td>USD 0.0000</td></tr>
+      <tr><td>Tempo total</td><td>2484.8s</td></tr>
+    </table>
+    <h3 style="margin-top: 1rem;">Custo por Tipo de Tarefa</h3>
+    <table class="finops-table">
+      <tr><th>Tarefa</th><th>Chamadas</th><th>Tokens</th><th>Custo (USD)</th></tr>
+      <tr><td>triagem</td><td>38</td><td>27,821</td><td>0.0000</td></tr><tr><td>risco</td><td>38</td><td>105,322</td><td>0.0000</td></tr><tr><td>relatorio</td><td>1</td><td>922</td><td>0.0000</td></tr>
+    </table>
+  </div>
+
+  <footer>
+    FinGuard — Future Minds 3 | Grupo 14 | Gerado automaticamente pelo pipeline multi-agente
+  </footer>
+</div>
+</body>
+</html>

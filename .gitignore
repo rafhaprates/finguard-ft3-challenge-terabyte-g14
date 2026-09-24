@@ -27,7 +27,6 @@ finguard_project/.env
 .DS_Store
 
 # FinGuard Outputs (gerados em runtime)
-finguard_project/output/
 *.log
 
 # Jupyter

@@ -1,0 +1,800 @@
+{
+  "summary": {
+    "total_calls": 77,
+    "total_tokens": 134065,
+    "total_prompt_tokens": 104226,
+    "total_completion_tokens": 29839,
+    "total_cost_usd": 0.0,
+    "elapsed_seconds": 2484.81,
+    "cost_per_complaint": 0.0,
+    "by_task_type": {
+      "triagem": {
+        "calls": 38,
+        "tokens": 27821,
+        "cost_usd": 0.0
+      },
+      "risco": {
+        "calls": 38,
+        "tokens": 105322,
+        "cost_usd": 0.0
+      },
+      "relatorio": {
+        "calls": 1,
+        "tokens": 922,
+        "cost_usd": 0.0
+      }
+    }
+  },
+  "records": [
+    {
+      "complaint_id": "REC-2026-00146",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 669,
+      "completion_tokens": 39,
+      "total_tokens": 708,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.694
+    },
+    {
+      "complaint_id": "REC-2026-00146",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 106,
+      "total_tokens": 2156,
+      "cost_usd": 0.0,
+      "latency_seconds": 7.138
+    },
+    {
+      "complaint_id": "REC-2026-00185",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 707,
+      "completion_tokens": 119,
+      "total_tokens": 826,
+      "cost_usd": 0.0,
+      "latency_seconds": 9.34
+    },
+    {
+      "complaint_id": "REC-2026-00185",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 118.852
+    },
+    {
+      "complaint_id": "REC-2026-00566",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 724,
+      "completion_tokens": 46,
+      "total_tokens": 770,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.792
+    },
+    {
+      "complaint_id": "REC-2026-00566",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 693,
+      "total_tokens": 2743,
+      "cost_usd": 0.0,
+      "latency_seconds": 52.235
+    },
+    {
+      "complaint_id": "REC-2026-00246",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 674,
+      "completion_tokens": 38,
+      "total_tokens": 712,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.567
+    },
+    {
+      "complaint_id": "REC-2026-00246",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 119.386
+    },
+    {
+      "complaint_id": "REC-2026-00509",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 702,
+      "completion_tokens": 40,
+      "total_tokens": 742,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.595
+    },
+    {
+      "complaint_id": "REC-2026-00509",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 121.138
+    },
+    {
+      "complaint_id": "REC-2026-00632",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 721,
+      "completion_tokens": 40,
+      "total_tokens": 761,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.902
+    },
+    {
+      "complaint_id": "REC-2026-00632",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 122.687
+    },
+    {
+      "complaint_id": "REC-2026-00253",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 629,
+      "completion_tokens": 2,
+      "total_tokens": 631,
+      "cost_usd": 0.0,
+      "latency_seconds": 1.935
+    },
+    {
+      "complaint_id": "REC-2026-00253",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 212,
+      "total_tokens": 2262,
+      "cost_usd": 0.0,
+      "latency_seconds": 16.769
+    },
+    {
+      "complaint_id": "REC-2026-00480",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 665,
+      "completion_tokens": 95,
+      "total_tokens": 760,
+      "cost_usd": 0.0,
+      "latency_seconds": 8.355
+    },
+    {
+      "complaint_id": "REC-2026-00480",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 80,
+      "total_tokens": 2130,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.369
+    },
+    {
+      "complaint_id": "REC-2026-00457",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 721,
+      "completion_tokens": 42,
+      "total_tokens": 763,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.607
+    },
+    {
+      "complaint_id": "REC-2026-00457",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 8,
+      "total_tokens": 2058,
+      "cost_usd": 0.0,
+      "latency_seconds": 0.825
+    },
+    {
+      "complaint_id": "REC-2026-00384",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 626,
+      "completion_tokens": 2,
+      "total_tokens": 628,
+      "cost_usd": 0.0,
+      "latency_seconds": 1.849
+    },
+    {
+      "complaint_id": "REC-2026-00384",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 125,
+      "total_tokens": 2175,
+      "cost_usd": 0.0,
+      "latency_seconds": 9.132
+    },
+    {
+      "complaint_id": "REC-2026-00546",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 631,
+      "completion_tokens": 38,
+      "total_tokens": 669,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.27
+    },
+    {
+      "complaint_id": "REC-2026-00546",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 478,
+      "total_tokens": 2528,
+      "cost_usd": 0.0,
+      "latency_seconds": 36.349
+    },
+    {
+      "complaint_id": "REC-2026-00487",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 625,
+      "completion_tokens": 93,
+      "total_tokens": 718,
+      "cost_usd": 0.0,
+      "latency_seconds": 7.446
+    },
+    {
+      "complaint_id": "REC-2026-00487",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 318,
+      "total_tokens": 2368,
+      "cost_usd": 0.0,
+      "latency_seconds": 24.839
+    },
+    {
+      "complaint_id": "REC-2026-00486",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 693,
+      "completion_tokens": 38,
+      "total_tokens": 731,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.147
+    },
+    {
+      "complaint_id": "REC-2026-00486",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 120,
+      "total_tokens": 2170,
+      "cost_usd": 0.0,
+      "latency_seconds": 9.093
+    },
+    {
+      "complaint_id": "REC-2026-00505",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 640,
+      "completion_tokens": 38,
+      "total_tokens": 678,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.361
+    },
+    {
+      "complaint_id": "REC-2026-00505",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 123.415
+    },
+    {
+      "complaint_id": "REC-2026-00495",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 717,
+      "completion_tokens": 46,
+      "total_tokens": 763,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.416
+    },
+    {
+      "complaint_id": "REC-2026-00495",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 80,
+      "total_tokens": 2130,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.871
+    },
+    {
+      "complaint_id": "REC-2026-00476",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 674,
+      "completion_tokens": 38,
+      "total_tokens": 712,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.905
+    },
+    {
+      "complaint_id": "REC-2026-00476",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 236,
+      "total_tokens": 2286,
+      "cost_usd": 0.0,
+      "latency_seconds": 20.698
+    },
+    {
+      "complaint_id": "REC-2026-00634",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 733,
+      "completion_tokens": 107,
+      "total_tokens": 840,
+      "cost_usd": 0.0,
+      "latency_seconds": 10.251
+    },
+    {
+      "complaint_id": "REC-2026-00634",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 104,
+      "total_tokens": 2154,
+      "cost_usd": 0.0,
+      "latency_seconds": 7.757
+    },
+    {
+      "complaint_id": "REC-2026-00609",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 716,
+      "completion_tokens": 140,
+      "total_tokens": 856,
+      "cost_usd": 0.0,
+      "latency_seconds": 11.929
+    },
+    {
+      "complaint_id": "REC-2026-00609",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 709,
+      "total_tokens": 2759,
+      "cost_usd": 0.0,
+      "latency_seconds": 55.513
+    },
+    {
+      "complaint_id": "REC-2026-00426",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 705,
+      "completion_tokens": 123,
+      "total_tokens": 828,
+      "cost_usd": 0.0,
+      "latency_seconds": 11.003
+    },
+    {
+      "complaint_id": "REC-2026-00426",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 74,
+      "total_tokens": 2124,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.208
+    },
+    {
+      "complaint_id": "REC-2026-00161",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 727,
+      "completion_tokens": 39,
+      "total_tokens": 766,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.847
+    },
+    {
+      "complaint_id": "REC-2026-00161",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 218,
+      "total_tokens": 2268,
+      "cost_usd": 0.0,
+      "latency_seconds": 16.422
+    },
+    {
+      "complaint_id": "REC-2026-00414",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 629,
+      "completion_tokens": 38,
+      "total_tokens": 667,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.353
+    },
+    {
+      "complaint_id": "REC-2026-00414",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 82,
+      "total_tokens": 2132,
+      "cost_usd": 0.0,
+      "latency_seconds": 6.863
+    },
+    {
+      "complaint_id": "REC-2026-00430",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 632,
+      "completion_tokens": 38,
+      "total_tokens": 670,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.324
+    },
+    {
+      "complaint_id": "REC-2026-00430",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 138.281
+    },
+    {
+      "complaint_id": "REC-2026-00547",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 624,
+      "completion_tokens": 39,
+      "total_tokens": 663,
+      "cost_usd": 0.0,
+      "latency_seconds": 8.868
+    },
+    {
+      "complaint_id": "REC-2026-00547",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 244,
+      "total_tokens": 2294,
+      "cost_usd": 0.0,
+      "latency_seconds": 22.668
+    },
+    {
+      "complaint_id": "REC-2026-00284",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 731,
+      "completion_tokens": 40,
+      "total_tokens": 771,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.906
+    },
+    {
+      "complaint_id": "REC-2026-00284",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 97,
+      "total_tokens": 2147,
+      "cost_usd": 0.0,
+      "latency_seconds": 7.41
+    },
+    {
+      "complaint_id": "REC-2026-00318",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 687,
+      "completion_tokens": 38,
+      "total_tokens": 725,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.038
+    },
+    {
+      "complaint_id": "REC-2026-00318",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 124.231
+    },
+    {
+      "complaint_id": "REC-2026-00266",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 662,
+      "completion_tokens": 42,
+      "total_tokens": 704,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.075
+    },
+    {
+      "complaint_id": "REC-2026-00266",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 939,
+      "total_tokens": 2989,
+      "cost_usd": 0.0,
+      "latency_seconds": 74.197
+    },
+    {
+      "complaint_id": "REC-2026-00558",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 701,
+      "completion_tokens": 40,
+      "total_tokens": 741,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.877
+    },
+    {
+      "complaint_id": "REC-2026-00558",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1172,
+      "total_tokens": 3222,
+      "cost_usd": 0.0,
+      "latency_seconds": 93.662
+    },
+    {
+      "complaint_id": "REC-2026-00459",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 688,
+      "completion_tokens": 126,
+      "total_tokens": 814,
+      "cost_usd": 0.0,
+      "latency_seconds": 10.669
+    },
+    {
+      "complaint_id": "REC-2026-00459",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 122.057
+    },
+    {
+      "complaint_id": "REC-2026-00471",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 698,
+      "completion_tokens": 38,
+      "total_tokens": 736,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.423
+    },
+    {
+      "complaint_id": "REC-2026-00471",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 121.701
+    },
+    {
+      "complaint_id": "REC-2026-00350",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 675,
+      "completion_tokens": 38,
+      "total_tokens": 713,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.05
+    },
+    {
+      "complaint_id": "REC-2026-00350",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 251,
+      "total_tokens": 2301,
+      "cost_usd": 0.0,
+      "latency_seconds": 19.996
+    },
+    {
+      "complaint_id": "REC-2026-00574",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 666,
+      "completion_tokens": 112,
+      "total_tokens": 778,
+      "cost_usd": 0.0,
+      "latency_seconds": 9.844
+    },
+    {
+      "complaint_id": "REC-2026-00574",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 125.443
+    },
+    {
+      "complaint_id": "REC-2026-00359",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 680,
+      "completion_tokens": 38,
+      "total_tokens": 718,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.86
+    },
+    {
+      "complaint_id": "REC-2026-00359",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 121.494
+    },
+    {
+      "complaint_id": "REC-2026-00443",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 693,
+      "completion_tokens": 42,
+      "total_tokens": 735,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.243
+    },
+    {
+      "complaint_id": "REC-2026-00443",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 122.294
+    },
+    {
+      "complaint_id": "REC-2026-00557",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 726,
+      "completion_tokens": 102,
+      "total_tokens": 828,
+      "cost_usd": 0.0,
+      "latency_seconds": 9.72
+    },
+    {
+      "complaint_id": "REC-2026-00557",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 97,
+      "total_tokens": 2147,
+      "cost_usd": 0.0,
+      "latency_seconds": 7.29
+    },
+    {
+      "complaint_id": "REC-2026-00287",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 708,
+      "completion_tokens": 39,
+      "total_tokens": 747,
+      "cost_usd": 0.0,
+      "latency_seconds": 5.447
+    },
+    {
+      "complaint_id": "REC-2026-00287",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 278,
+      "total_tokens": 2328,
+      "cost_usd": 0.0,
+      "latency_seconds": 21.071
+    },
+    {
+      "complaint_id": "REC-2026-00413",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 626,
+      "completion_tokens": 44,
+      "total_tokens": 670,
+      "cost_usd": 0.0,
+      "latency_seconds": 4.48
+    },
+    {
+      "complaint_id": "REC-2026-00413",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 498,
+      "total_tokens": 2548,
+      "cost_usd": 0.0,
+      "latency_seconds": 37.939
+    },
+    {
+      "complaint_id": "REC-2026-00435",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 635,
+      "completion_tokens": 2,
+      "total_tokens": 637,
+      "cost_usd": 0.0,
+      "latency_seconds": 2.131
+    },
+    {
+      "complaint_id": "REC-2026-00435",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 1500,
+      "total_tokens": 3550,
+      "cost_usd": 0.0,
+      "latency_seconds": 122.759
+    },
+    {
+      "complaint_id": "REC-2026-00166",
+      "task_type": "triagem",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 640,
+      "completion_tokens": 2,
+      "total_tokens": 642,
+      "cost_usd": 0.0,
+      "latency_seconds": 2.269
+    },
+    {
+      "complaint_id": "REC-2026-00166",
+      "task_type": "risco",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 2050,
+      "completion_tokens": 703,
+      "total_tokens": 2753,
+      "cost_usd": 0.0,
+      "latency_seconds": 54.016
+    },
+    {
+      "complaint_id": "BATCH",
+      "task_type": "relatorio",
+      "model": "qwen2.5:3b",
+      "prompt_tokens": 526,
+      "completion_tokens": 396,
+      "total_tokens": 922,
+      "cost_usd": 0.0,
+      "latency_seconds": 25.469
+    }
+  ]
+}

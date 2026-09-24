@@ -1,0 +1,1007 @@
+[
+  {
+    "categoria": "Atendimento",
+    "produto": "Empréstimo",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00146",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.694,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O documento fornecido parece estar em desenvolvimento e contém várias seções importantes para a gestão de reclamações e proteção de dados. No entanto, algumas partes não estão completamente formadas ou estão incompletas, o que pode gerar problemas de interpretação. Aqui está uma versão revisada e formatada de acordo com as instruções solicitadas, com uma análise de risco e respostas JSON formatadas de acordo com as especificações:",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00146",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 7.138
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Investimentos",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente investiu R$ 45.000 em fundo de investimento sem ser informado sobre taxa de performance de R$ 2.340.00. Cliente está passando por dificuldades financeiras e já registrou reclamação no Banco Central. Solicita estorno imediato e revisão da taxa.",
+    "id": "REC-2026-00185",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 9.34,
+    "canal": "Ouvidoria",
+    "analise_risco": {
+      "id": "REC-2026-00185",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"OBJETIVO\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"CLASSIFICAÇÃO_DE_URGÊNCIA_E_AÇÕES_IMEDIATAS\\\": {\\n        \\\"2.1\\\": {\\n            \\\"Urgência BAIXA\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro."
+    }
+  },
+  {
+    "categoria": "Cobrança Indevida",
+    "produto": "Cartão de Crédito",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00566",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 6.792,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado não foi completo. Para fornecer uma resposta adequada, seria necessário o restante do texto que completa a descrição dos procedimentos. No entanto, posso fornecer uma análise baseada nas informações fornecidas até o momento. Aqui está a análise de risco e procedimentos sugeridos para os produtos e canais de atendimento mencionados, seguindo o formato solicitado:\n\n3. PROCEDIMENTOS POR PRODUTO\n3.1 Cartão de Crédito\n- Cobrança indevida: iniciar contestação de fatura em até 24h; estorno provisório em até 48h se valor > R$ 200. - Fraude: bloquear cartão imediatamente, emitir segunda via, iniciar investigação em até 12h. - Cancelamento: processar em até 24h; estornar anuidades proporcionais automaticamente. - Responsável: Gerência de Cartões.\n3.2 Conta Corrente\n- Tarifas indevidas: revisar extrato dos últimos 90 dias; estorno automático se comprovado. - Problemas de acesso/app: encaminhar para TI com prioridade se afetar transações. - Encerramento: processar em até 5 dias úteis; confirmar saldo zerado. - Responsável: Gerência de Contas.\n3.3 Empréstimo\n- Divergência de taxas: recalcular parcelas em até 48h; notificar cliente com comparativo. - Cobranças após quitação: suspender cobranças em até 24h; emitir carta de quitação. - Renegociação: oferecer ao menos 2 alternativas de renegociação. - Responsável: Gerência de Crédito.\n3.4 Investimentos\n- Taxas não informadas: revisar contrato e comunicações; estornar se ausência de informação comprovada. - Rentabilidade divergente: gerar relatório comparativo detalhado em até 72h. - Resgate bloqueado: desbloquear ou justificar formalmente em até 24h. - Responsável: Gerência de Investimentos.\n3.5 Seguros\n- Reajuste sem aviso: verificar cláusula contratual; se aviso prévio insuficiente, estornar diferença. - Negativa de sinistro: reanálise obrigatória por perito diferente do original em até 5 dias. - Cancelamento: processar em até 48h com devolução proporcional do prêmio. - Responsável: Gerência de Seguros.\n4. PROCEDIMENTOS POR CANAL DE ORIGEM\n4.1 SAC (Serviço de Atendimento ao Consumidor) - Canal de primeira instância. Prazo legal: 5 dias úteis. - Registro obrigatório com protocolo numérico fornecido ao cliente. 4.2 Ouvidoria - Canal de segunda instância (cliente já tentou SAC). - Tratamento diferenciado: analista sênior dedicado.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00566",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 52.235
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00246",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.567,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00246",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00509",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 6.595,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00509",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "id": "REC-2026-00406",
+    "blocked": true,
+    "block_reason": "Prompt injection detectado: DAN|jailbreak|do\\s+anything\\s+now",
+    "mensagem": "Sua mensagem não pôde ser processada pelo FinGuard. O sistema aceita apenas reclamações relacionadas a produtos e serviços bancários. Por favor, reformule sua solicitação descrevendo o problema com seu produto financeiro.",
+    "canal": "Banco Central",
+    "analise_risco": {
+      "skipped": true
+    }
+  },
+  {
+    "categoria": "Fraude/Segurança",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Crítica",
+    "id": "REC-2026-00632",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.902,
+    "canal": "Ouvidoria",
+    "analise_risco": {
+      "id": "REC-2026-00632",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "id": "REC-2026-00253",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 1.935,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O documento fornecido contém várias diretrizes importantes para a gestão de reclamações de clientes, incluindo prazos de resposta, ações imediatas, classificações de urgência e indicadores de acompanhamento. No entanto, há um ponto que pode ser considerado um risco: a possibilidade de violação de dados pessoais em relatórios gerenciais ou compartilhamento fora da área responsável, sem a exclusão de dados como CPF, número de conta e dados de cartão. Para mitigar esse risco, é crucial garantir que todas as informações pessoais sejam excluídas antes de serem incluídas em relatórios ou compartilhadas, de acordo com as diretrizes da LGPD (Lei Geral de Proteção de Dados Pessoais). Além disso, a proteção de dados deve ser uma prioridade em todas as etapas do processo de tratamento de reclamações.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00253",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 16.769
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente relata problema com Pix em sua conta corrente. Aplicativo e internet banking apresentam mensagem de erro genérica. Solicita verificação e resolução imediata do problema para evitar transtornos financeiros.",
+    "id": "REC-2026-00480",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 8.355,
+    "canal": "Ouvidoria",
+    "analise_risco": {
+      "Objetivo": "Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00480",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 6.369
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Empréstimo",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00457",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.607,
+    "canal": "Ouvidoria",
+    "analise_risco": {
+      "resposta": "[{",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00457",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 0.825
+    }
+  },
+  {
+    "id": "REC-2026-00384",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 1.849,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e está em um formato JSON. Não há mais riscos a serem analisados neste contexto, pois a estrutura já foi fornecida.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00384",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 9.132
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Crítica",
+    "id": "REC-2026-00546",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.27,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": [
+        {
+          "produto": "Cartão de Crédito",
+          "riscos": [
+            {
+              "tipo": "Fraude",
+              "risco": "Alta",
+              "solucao": "Bloquear cartão imediatamente, emitir segunda via e iniciar investigação em até 12h."
+            },
+            {
+              "tipo": "Cancelamento",
+              "risco": "Alta",
+              "solucao": "Processar em até 24h e estornar anuidades proporcionais automaticamente."
+            }
+          ]
+        },
+        {
+          "produto": "Conta Corrente",
+          "riscos": [
+            {
+              "tipo": "Tarifas indevidas",
+              "risco": "Alta",
+              "solucao": "Revisar extrato dos últimos 90 dias e estorno automático se comprovado."
+            },
+            {
+              "tipo": "Problemas de acesso/app",
+              "risco": "Alta",
+              "solucao": "Encaminhar para TI com prioridade se afetar transações."
+            },
+            {
+              "tipo": "Encerramento",
+              "risco": "Alta",
+              "solucao": "Processar em até 5 dias úteis e confirmar saldo zerado."
+            }
+          ]
+        },
+        {
+          "produto": "Empréstimo",
+          "riscos": [
+            {
+              "tipo": "Divergência de taxas",
+              "risco": "Alta",
+              "solucao": "Recalcular parcelas em até 48h e notificar cliente com comparativo."
+            },
+            {
+              "tipo": "Cobranças após quitação",
+              "risco": "Alta",
+              "solucao": "Suspender cobranças em até 24h e emitir carta de quitação."
+            },
+            {
+              "tipo": "Renegociação",
+              "risco": "Alta",
+              "solucao": "Oferecer ao menos 2 alternativas de renegociação."
+            }
+          ]
+        }
+      ],
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00546",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 36.349
+    }
+  },
+  {
+    "categoria": "Cobrança Indevida",
+    "produto": "Cartão de Crédito",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente relata cobrança indevida na fatura do cartão de crédito após cancelamento do serviço. Solicita estorno imediato e ameaça registrar ocorrência no Procon.",
+    "id": "REC-2026-00487",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 7.446,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "RISCO": {
+        "BancoCentralProcon": {
+          "RISCO": "Crítico",
+          "AÇÕES": {
+            "RESPONSAVEL": "Diretoria de Compliance",
+            "AÇÕES_IMEDIATAS": {
+              "NOTIFICAR": "Diretoria de Compliance",
+              "RESPONDA_POR": "10 dias úteis",
+              "REVISAR_JURÍDICO": "Antes do envio",
+              "NOTIFICAR_DIRECTORIA": "2h após recebimento"
+            }
+          }
+        },
+        "RedesSociais": {
+          "RISCO": "Moderado",
+          "AÇÕES": {
+            "RESPONSAVEL": "Equipe de Comunicação",
+            "AÇÕES_IMEDIATAS": {
+              "RESPONDA_POR": "2h",
+              "MIGRAR_ATENDIMENTO": "Canal privado (DM/inbox)",
+              "MONITORAR_REPERCUSSÃO": "Monitorar repercussão",
+              "ACIONAR_EQUIPE_COMUNICAÇÃO": "Se viralizar",
+              "NOTIFICAR_DIRECTORIA_MARKETING": "Risco reputacional"
+            }
+          }
+        }
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00487",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 24.839
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00486",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.147,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e está em um formato JSON. Não há mais riscos a serem analisados neste contexto, já que a estrutura já foi fornecida.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00486",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 9.093
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Crítica",
+    "id": "REC-2026-00505",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.361,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00505",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Cobrança Indevida",
+    "produto": "Cartão de Crédito",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00495",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 6.416,
+    "canal": "SAC",
+    "analise_risco": {
+      "OBJETIVO": "Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00495",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 6.871
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00476",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.905,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e parece estar em conformidade com as regras e procedimentos solicitados. Não há riscos identificados no texto fornecido, pois ele segue instruções claras e está em conformidade com as diretrizes de atendimento ao cliente e proteção de dados. No entanto, alguns pontos devem ser ressaltados para garantir a eficácia e segurança dos procedimentos:\n\n1. A responsabilidade de cada produto e canal de atendimento é clara e precisa.\n2. As práticas de resolução de problemas são claras e eficazes.\n3. As diretrizes de proteção de dados estão bem estabelecidas.\n4. Os indicadores de desempenho estão definidos para monitoramento e melhoria contínua.\n\nEm resumo, o texto solicitado não apresenta riscos significativos, mas é importante manter essas práticas ativas e atualizadas para garantir um bom atendimento ao cliente e uma boa reputação da empresa.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00476",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 20.698
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Baixa",
+    "resumo": "Cliente relata dificuldades para obter informações claras sobre coberturas do seguro contratado. Solicita envio imediato da documentação completa e confirmação dos valores. Aguarda retorno dentro do prazo legal estabelecido pelo Código de Defesa do Consumidor.",
+    "id": "REC-2026-00634",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 10.251,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e está em um formato JSON. Não há mais riscos a serem analisados neste contexto, pois o documento já contém todas as informações necessárias para gerenciar os procedimentos de atendimento e resolução de problemas relacionados aos produtos e canais de atendimento. Se você deseja adicionar mais detalhes ou alterar algum procedimento, por favor, forneça as informações adicionais.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00634",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 7.757
+    }
+  },
+  {
+    "categoria": "Cancelamento",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente reclama de cobrança de tarifa de manutenção na conta corrente após migração para pacote digital isento de tarifas. Alega que houve uma 'atualização no pacote de serviços' sem comunicação prévia. Solicita estorno imediato do valor e ressalta que, caso não resolva até a próxima semana, irá denunciar ao Procon e Reclame Aqui.",
+    "id": "REC-2026-00609",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 11.929,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O documento apresenta uma política robusta para o tratamento de reclamações de clientes, incluindo classificações de urgência, prazos, ações imediatas e indicadores de acompanhamento. No entanto, alguns pontos devem ser analisados em termos de risco e adequação à legislação e práticas recomendadas. Aqui estão algumas observações e recomendações:\n\n1. **Urgência CRÍTICA**: A definição de urgência CRÍTICA é bastante abrangente, incluindo indícios de fraude, violação regulatória, menções a órgãos regulatórios ou órgãos de proteção ao consumidor, risco à segurança do cliente, e vulnerabilidade emocional ou financeira extrema. Essa definição pode ser considerada muito rígida, o que pode levar a uma sobrecarga desnecessária de trabalho para equipes de atendimento e gerenciamento de risco. É importante garantir que a definição de urgência seja clara e justificada para evitar a sobrecarga desnecessária de trabalho.\n\n2. **Comunicação com o Cliente**: A política sugere que a comunicação com o cliente deve seguir diretrizes LGPD, o que é adequado. No entanto, é importante garantir que essas diretrizes sejam claras e que a equipe de atendimento esteja preparada para lidar com essas regras.\n\n3. **Resolução de Reclamações**: A meta de resolução no primeiro contato é de 40%, o que é um bom ponto de partida, mas pode ser ajustado com base na experiência da organização e nas necessidades específicas de cada produto ou serviço.\n\n4. **Relatórios e Acompanhamento**: O documento inclui um SLA de primeira resposta e um NPS pós-atendimento, que são pontos importantes para a melhoria contínua e a avaliação da eficácia da política.\n\n5. **Proteção de Dados**: A política de proteção de dados é adequada e deve ser seguida para garantir a conformidade com as leis de proteção de dados, como a LGPD.\n\n6. **Acesso aos Dados**: A restrição de acesso aos dados da reclamação à equipe designada para o caso é uma medida importante para garantir a privacidade e segurança dos dados dos clientes.\n\n7. **Ações Imediatas**: As ações imediatas para cada urgência são claras e direcionadas, o que é benéfico para garantir uma resposta rápida e eficaz.\n\n8. **Monitoramento e Acompanhamento**: O monitoramento diário do SLA e o relatório semanal consolidado são pontos positivos para garantir a eficácia e a transparência da política.\n\nEm resumo, a política apresentada é bem estruturada e abrange vários aspectos importantes para o tratamento de reclamações de clientes. No entanto, é importante revisar e ajustar alguns pontos para garantir que a política seja eficaz e segura para a organização e para os clientes.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00609",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 55.513
+    }
+  },
+  {
+    "categoria": "Cobrança Indevida",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente relata cobrança indevida de parcela de financiamento quitado em novembro do ano anterior. Solicita estorno imediato e ameaça registrar ocorrência no Procon e Banco Central devido à falta de resolução após múltiplas tentativas. Impacto financeiro significativo e urgência para resolver problema.",
+    "id": "REC-2026-00426",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 11.003,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O documento fornecido contém uma política de tratamento de reclamações de clientes com detalhes claros e prazos específicos. No entanto, há alguns pontos que podem ser considerados riscos ou áreas para melhoria. Aqui estão alguns pontos de análise e recomendações em JSON formatado:",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00426",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 6.208
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Empréstimo",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00161",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.847,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "json": {
+        "riscos": [
+          {
+            "nome": "Risco Legal",
+            "descricao": "Atraso na resposta ou resolução de reclamações relacionadas ao Banco Central ou Procon pode resultar em multas e penalidades legais."
+          },
+          {
+            "nome": "Risco Reputacional",
+            "descricao": "Reclamações não resolvidas ou mal gerenciadas podem resultar em críticas na mídia e perda de reputação da marca."
+          },
+          {
+            "nome": "Risco de Compliance",
+            "descricao": "Falhas na proteção de dados pessoais podem levar a multas e restrições de operação."
+          },
+          {
+            "nome": "Risco de Segurança",
+            "descricao": "Reclamações sobre fraude ou segurança podem levar a riscos à segurança dos clientes."
+          },
+          {
+            "nome": "Risco de Compliance Interno",
+            "descricao": "Falhas na comunicação interna ou gerenciamento de reclamações podem resultar em punições internas."
+          }
+        ]
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00161",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 16.422
+    }
+  },
+  {
+    "categoria": "Outros",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Baixa",
+    "id": "REC-2026-00414",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.353,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O texto fornecido apresenta uma política de tratamento de reclamações de clientes com detalhes claros e estruturados. No entanto, há alguns pontos que podem ser considerados riscos ou melhorados para garantir uma implementação eficaz e segura. Aqui estão algumas observações e sugestões em JSON formatado:",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00414",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 6.863
+    }
+  },
+  {
+    "categoria": "Outros",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Crítica",
+    "id": "REC-2026-00430",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.324,
+    "canal": "Ouvidoria",
+    "analise_risco": {
+      "id": "REC-2026-00430",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência BAIXA\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Outros",
+    "produto": "Não Identificado",
+    "sentimento": "Neutro",
+    "urgencia": "Baixa",
+    "id": "REC-2026-00547",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 8.868,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "Ocorrem riscos relacionados a erros de processamento, como cobranças indevidas, tarifas indevidas e divergência de taxas, que podem levar a reclamações e perda de clientes. Para mitigar esses riscos, é importante garantir que os procedimentos de resolução sejam eficazes e seguros. Além disso, há riscos de reputação associados a falhas na comunicação com os clientes, especialmente em redes sociais. Para mitigar esses riscos, é essencial seguir as diretrizes de LGPD e garantir que todas as comunicações sejam transparentes e respeitosas com os dados pessoais dos clientes. Por fim, há um risco de não atingir a meta de resolução no primeiro contato, o que pode comprometer a satisfação do cliente e a reputação da empresa. Para mitigar esse risco, é crucial manter um sistema de acompanhamento eficaz e uma equipe treinada para lidar com reclamações de forma eficiente e rápida.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00547",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 22.668
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00284",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.906,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e está em um formato JSON. Não há mais riscos a serem analisados neste contexto, pois o documento já contém as procedimentos e responsabilidades definidas. Se você deseja adicionar mais informações ou alterar algum procedimento, posso ajustar o JSON conforme necessário. Caso contrário, o documento está em conformidade e sem riscos significativos.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00284",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 7.41
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00318",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.038,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00318",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Fraude/Segurança",
+    "produto": "Empréstimo",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00266",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.075,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "resposta": "O documento apresenta uma política robusta para tratamento de reclamações de clientes, incluindo classificações de urgência, prazos, responsabilidades e procedimentos. No entanto, há alguns pontos que podem ser analisados e potencialmente melhorados para mitigar riscos e garantir eficiência. Aqui estão algumas observações e sugestões em relação aos riscos identificados no documento:\n\n1. **Risco de Falta de Resolução em Tempo Próprio**: A classificação de urgência CRÍTICA pode ser muito rara, mas se ocorrer, o prazo de resposta é de apenas 4 horas, o que pode não ser suficiente para a análise completa e a tomada de decisão adequada. Sugere-se aumentar o prazo para 8 horas ou até 12 horas para garantir que o problema seja tratado com a atenção adequada.\n\n2. **Risco de Falta de Comunicação Transparente**: A política sugere que a comunicação com o cliente deve seguir diretrizes LGPD, mas não especifica como essas diretrizes devem ser implementadas ou monitoradas. É importante garantir que todas as comunicações com os clientes respeitem essas diretrizes para evitar problemas legais ou de reputação.\n\n3. **Risco de Falta de Controle de Acesso a Dados**: A política menciona que os dados da reclamação devem ser acessados apenas por uma equipe designada, mas não especifica como essa equipe será formada ou qualificada. É importante garantir que apenas os profissionais qualificados e apropriados tenham acesso aos dados para evitar vazamento de informações.\n\n4. **Risco de Falta de Monitoramento e Feedback**: A política não menciona a necessidade de monitorar o NPS pós-atendimento ou a criação de relatórios semanais. Esses elementos são importantes para avaliar a eficácia da política e para identificar áreas para melhorias contínuas.\n\n5. **Risco de Falta de Controle de Acesso a Dados**: A política menciona que os dados da reclamação devem ser acessados apenas por uma equipe designada, mas não especifica como essa equipe será formada ou qualificada. É importante garantir que apenas os profissionais qualificados e apropriados tenham acesso aos dados para evitar vazamento de informações.\n\n6. **Risco de Falta de Comunicação Interna**: A política não menciona a necessidade de atualizar a diretoria com um relatório semanal consolidado. Essa comunicação interna é importante para garantir que todas as áreas da empresa estejam cientes das ações e resultados da política de atendimento ao cliente.\n\n7. **Risco de Falta de Controle de Acesso a Dados**: A política não menciona como os dados serão armazenados ou qual o período de armazenamento mínimo. É importante garantir que os dados sejam armazenados de forma segura e conforme as regulamentações aplicáveis, como a LGPD.\n\n8. **Risco de Falta de Comunicação com o Cliente**: A política não menciona como as comunicações públicas nas redes sociais devem ser feitas. É importante garantir que as comunicações sejam claras, consistentes e respeitem as diretrizes de LGPD.\n\n9. **Risco de Falta de Controle de Acesso a Dados**: A política não menciona como os dados serão armazenados ou qual o período de armazenamento mínimo. É importante garantir que os dados sejam armazenados de forma segura e conforme as regulamentações aplicáveis, como a LGPD.\n\n10. **Risco de Falta de Comunicação com o Cliente**: A política não menciona como as comunicações públicas nas redes sociais devem ser feitas. É importante garantir que as comunicações sejam claras, consistentes e respeitem as diretrizes de LGPD.\n\nEm resumo, a política atual é bem estruturada, mas há espaço para melhorias em termos de prazos, comunicação, controle de acesso a dados e monitoramento contínuo.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00266",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 74.197
+    }
+  },
+  {
+    "categoria": "Fraude/Segurança",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00558",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.877,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "3. PROCEDIMENTOS POR PRODUTO": {
+        "3.1 Cartão de Crédito": {
+          "Cobrança indevida": {
+            "iniciar contestação de fatura": "em até 24h",
+            "estorno provisório": "em até 48h se valor > R$ 200",
+            "responsável": "Gerência de Cartões"
+          },
+          "Fraude": {
+            "bloquear cartão": "imediatamente",
+            "emitir segunda via": "imediatamente",
+            "iniciar investigação": "em até 12h",
+            "responsável": "Gerência de Cartões"
+          },
+          "Cancelamento": {
+            "processar": "em até 24h",
+            "estornar anuidades": "proporcionais automaticamente",
+            "responsável": "Gerência de Cartões"
+          }
+        },
+        "3.2 Conta Corrente": {
+          "Tarifas indevidas": {
+            "revisar extrato": "dos últimos 90 dias",
+            "estorno automático": "se comprovado",
+            "responsável": "Gerência de Contas"
+          },
+          "Problemas de acesso/app": {
+            "encaminhar para TI": "com prioridade",
+            "responsável": "Gerência de Contas"
+          },
+          "Encerramento": {
+            "processar": "em até 5 dias úteis",
+            "confirmar saldo": "zerado",
+            "responsável": "Gerência de Contas"
+          }
+        },
+        "3.3 Empréstimo": {
+          "Divergência de taxas": {
+            "recalcular parcelas": "em até 48h",
+            "notificar cliente": "com comparativo",
+            "responsável": "Gerência de Crédito"
+          },
+          "Cobranças após quitação": {
+            "suspirar cobranças": "em até 24h",
+            "emitir carta de quitação": "imediatamente",
+            "responsável": "Gerência de Crédito"
+          },
+          "Renegociação": {
+            "oferecer ao menos 2 alternativas": "de renegociação",
+            "responsável": "Gerência de Crédito"
+          }
+        },
+        "3.4 Investimentos": {
+          "Taxas não informadas": {
+            "revisar contrato e comunicações": "revisar contrato e comunicações",
+            "estornar se ausência de informação comprovada": "estornar se ausência de informação comprovada",
+            "responsável": "Gerência de Investimentos"
+          },
+          "Rentabilidade divergente": {
+            "gerar relatório comparativo detalado": "em até 72h",
+            "responsável": "Gerência de Investimentos"
+          },
+          "Resgate bloqueado": {
+            "desbloquear ou justificar formalmente": "em até 24h",
+            "responsável": "Gerência de Investimentos"
+          }
+        },
+        "3.5 Seguros": {
+          "Reajuste sem aviso": {
+            "verificar cláusula contratual": "verificar cláusula contratual",
+            "estornar diferença": "se aviso prévio insuficiente",
+            "responsável": "Gerência de Seguros"
+          },
+          "Negativa de sinistro": {
+            "reanálise obrigatória por perito diferente do original": "em até 5 dias",
+            "responsável": "Gerência de Seguros"
+          },
+          "Cancelamento": {
+            "processar em até 48h": "com devolução proporcional do prêmio",
+            "responsável": "Gerência de Seguros"
+          }
+        }
+      },
+      "4. PROCEDIMENTOS POR CANAL DE ORIGEM": {
+        "4.1 SAC (Serviço de Atendimento ao Consumidor)": {
+          "Canal de primeira instância": "Sim",
+          "Prazo legal": "5 dias úteis",
+          "Registro obrigatório": "com protocolo numérico fornecido ao cliente"
+        },
+        "4.2 Ouvidoria": {
+          "Canal de segunda instância": "Sim",
+          "Tratamento diferenciado": "analista sênior dedicado"
+        }
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00558",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 93.662
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Seguros",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente relata alteração indevida na apólice de seguro de vida sem autorização, mudança de beneficiário. Acredita que dados pessoais foram acessados e alterados. Solicita que a situação seja revertida imediatamente e explicações sobre como ocorreu. Ameaça processar o banco por ineficiência e falta de resolução rápida.",
+    "id": "REC-2026-00459",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 10.669,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00459",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Conta Corrente",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00471",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.423,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00471",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": {\\n        \\\"Urgência BAIXA\\\": {\\n            \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n            \\\"Prazo de "
+    }
+  },
+  {
+    "id": "REC-2026-00488",
+    "blocked": true,
+    "block_reason": "Prompt injection detectado: DAN|jailbreak|do\\s+anything\\s+now",
+    "mensagem": "Sua mensagem não pôde ser processada pelo FinGuard. O sistema aceita apenas reclamações relacionadas a produtos e serviços bancários. Por favor, reformule sua solicitação descrevendo o problema com seu produto financeiro.",
+    "canal": "Banco Central",
+    "analise_risco": {
+      "skipped": true
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00350",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.05,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já contém uma estrutura bem organizada. Não há riscos específicos mencionados no texto fornecido, pois ele está focado em estabelecer procedimentos e prazos de resolução de problemas, sem detalhar riscos. No entanto, aqui está uma análise simplificada e a inclusão de um risco potencial que pode ser adicionada ao texto, conforme solicitado:\n\n4. RISCOS E CONTROLE DE RISCOS\n\n- Falhas na comunicação ou processamento de reclamações podem levar a problemas de reputação e perda de clientes. - Falta de compliance com diretrizes de LGPD pode resultar em multas e perda de confiança do cliente. - Falta de monitoramento adequado de redes sociais pode resultar em problemas de reputação. - Falta de controle de acesso aos dados pode resultar em vazamento de informações pessoais. Esses riscos podem ser mitigados através da implementação de procedimentos de controle adequados e treinamento contínuo de equipes de atendimento ao cliente.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00350",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 19.996
+    }
+  },
+  {
+    "categoria": "Cobrança Indevida",
+    "produto": "Cartão de Crédito",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente Carla Mendonça de Souza relata cobrança indevida no cartão de crédito após cancelamento de serviço. Lidera reclamação há 20 dias, sem solução. Solicita estorno imediato e ameaça registrar ocorrência no Procon.",
+    "id": "REC-2026-00574",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 9.844,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00574",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Não Identificado",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00359",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.86,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00359",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Empréstimo Pessoal",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00443",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.243,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00443",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": {\\n        \\\"Urgência BAIXA\\\": {\\n            \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n            \\\"Prazo de "
+    }
+  },
+  {
+    "categoria": "Produto/Serviço",
+    "produto": "Investimentos",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "resumo": "Cliente relata descaso do banco com pedido de cancelamento de aplicação em fundo de investimento. Solicita resgate imediato e ameaça ação judicial contra o banco. Problema recorrente e ameaça de violação de direitos.",
+    "id": "REC-2026-00557",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 9.72,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "resposta": "O código solicitado já está completo e está em um formato JSON. Não há mais riscos a serem analisados neste contexto, pois o documento já contém todas as informações necessárias para gerenciar os procedimentos e responsabilidades. Se houver alguma correção ou adição de detalhes, posso auxiliar nisso. Caso contrário, o documento está pronto para implementação.",
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00557",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 7.29
+    }
+  },
+  {
+    "categoria": "Atendimento",
+    "produto": "Empréstimo",
+    "sentimento": "Negativo",
+    "urgencia": "Alta",
+    "id": "REC-2026-00287",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 5.447,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "RISCO": {
+        "BancoCentralProcon": {
+          "Descrição": "Reclamações que envolvem o Banco Central ou Procon são consideradas de alta urgência e devem ser respondidas conforme determinação do órgão, geralmente em 10 dias úteis.",
+          "Ações": "Resposta deve ser revisada pelo jurídico antes do envio e notificar diretoria de Compliance em até 2h após recebimento.",
+          "Prazo": "10 dias úteis"
+        },
+        "RedesSociais": {
+          "Descrição": "Reclamações em redes sociais devem ser respondidas publicamente em até 2h e migrar atendimento para canal privado (DM/inbox) imediatamente. Monitorar repercussão e notificar gerência de Marketing caso viralize.",
+          "Ações": "Resposta pública em até 2h, migrar atendimento para canal privado, monitorar repercussão e notificar gerência de Marketing caso viralize.",
+          "Prazo": "2h"
+        }
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00287",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 21.071
+    }
+  },
+  {
+    "categoria": "Fraude/Segurança",
+    "produto": "Cartão de Crédito",
+    "sentimento": "Negativo",
+    "urgencia": "Crítica",
+    "id": "REC-2026-00413",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 4.48,
+    "canal": "Redes Sociais",
+    "analise_risco": {
+      "3. PROCEDIMENTOS POR PRODUTO": {
+        "3.1 Cartão de Crédito": {
+          "Cobrança indevida": {
+            "iniciar contestação de fatura": "em até 24h",
+            "estorno provisório": "em até 48h se valor > R$ 200"
+          },
+          "Fraude": {
+            "bloquear cartão": "imediatamente",
+            "emitir segunda via": "imediatamente",
+            "iniciar investigação": "em até 12h"
+          },
+          "Cancelamento": {
+            "processar": "em até 24h",
+            "estornar anuidades": "automaticamente"
+          }
+        },
+        "3.2 Conta Corrente": {
+          "Tarifas indevidas": {
+            "revisar extrato": "dos últimos 90 dias",
+            "estorno automático": "se comprovado"
+          },
+          "Problemas de acesso/app": {
+            "encaminhar para TI": "com prioridade se afetar transações"
+          },
+          "Encerramento": {
+            "processar": "em até 5 dias úteis",
+            "confirmar saldo": "zerado"
+          }
+        },
+        "3.3 Empréstimo": {
+          "Divergência de taxas": {
+            "recalcular parcelas": "em até 48h",
+            "notificar cliente": "com comparativo"
+          },
+          "Cobranças após quitação": {
+            "suspenso as cobranças": "em até 24h",
+            "emitir carta de quitação": ""
+          }
+        }
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00413",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 37.939
+    }
+  },
+  {
+    "id": "REC-2026-00435",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 2.131,
+    "canal": "SAC",
+    "analise_risco": {
+      "id": "REC-2026-00435",
+      "error": "Erro de parsing na resposta do modelo de risco",
+      "raw_response": "{\"resposta\": \"```json\\n{\\n    \\\"Objetivo\\\": \\\"Esta política estabelece as diretrizes para tratamento de reclamações de clientes, definindo prazos, responsabilidades, ações imediatas e fluxos de escalação conforme o nível de criticidade e o produto envolvido.\\\",\\n    \\\"Classificação de Urgência e Ações Imediatas\\\": [\\n        {\\n            \\\"Urgência Baixa\\\": {\\n                \\\"Definição\\\": \\\"Dúvidas operacionais, solicitações de informação, insatisfações leves sem impacto financeiro.\\\",\\n    "
+    }
+  },
+  {
+    "id": "REC-2026-00166",
+    "blocked": false,
+    "modelo_triagem": "qwen2.5:3b",
+    "latencia_triagem_s": 2.269,
+    "canal": "Banco Central",
+    "analise_risco": {
+      "Análise de Risco": {
+        "Comunicação Interna e Externa": {
+          "Risco de Falta de Informação Comprovada": {
+            "Descrição": "Ausência de informações comprovadas pode levar a problemas legais e perda de credibilidade.",
+            "Ação": "Garantir a verificação de informações antes de comunicação externa ou interna.",
+            "Prazo": "Estornar se ausência de informação comprovada.",
+            "Responsável": "Comunicação Interna e Externa"
+          },
+          "Risco de Resposta Demorada": {
+            "Descrição": "Respostas demoradas podem gerar insatisfação do cliente e perda de reputação.",
+            "Ação": "Estabelecer prazos mais eficientes para responder reclamações.",
+            "Prazo": "Estabelecer prazos mais eficientes para responder reclamações.",
+            "Responsável": "Comunicação Interna e Externa"
+          }
+        },
+        "Seguros e Responsabilidade Civil": {
+          "Risco de Reajuste Sem Aviso": {
+            "Descrição": "Reajustes sem aviso podem gerar insatisfação e perda de clientes.",
+            "Ação": "Estornar diferença se ausência de informação comprovada.",
+            "Prazo": "Estornar se ausência de informação comprovada.",
+            "Responsável": "Gerência de Seguros"
+          },
+          "Risco de Negativa de Sinistro": {
+            "Descrição": "Negativas de sinistro podem levar a perda de clientes e perda de reputação.",
+            "Ação": "Reanálise obrigatória por perito diferente do original em até 5 dias.",
+            "Prazo": "Reanálise obrigatória por perito diferente do original em até 5 dias.",
+            "Responsável": "Gerência de Seguros"
+          }
+        },
+        "Sistemas e Tecnologia": {
+          "Risco de Cancelamento de Conta": {
+            "Descrição": "Cancelamentos de conta podem levar a perda de clientes e perda de reputação.",
+            "Ação": "Processar em até 48h com devolução proporcional do prêmio.",
+            "Prazo": "Processar em até 48h com devolução proporcional do prêmio.",
+            "Responsável": "Gerência de Seguros"
+          }
+        }
+      },
+      "tipo_risco": [
+        "Nenhum"
+      ],
+      "id": "REC-2026-00166",
+      "modelo_risco": "qwen2.5:3b",
+      "latencia_risco_s": 54.016
+    }
+  }
+]
