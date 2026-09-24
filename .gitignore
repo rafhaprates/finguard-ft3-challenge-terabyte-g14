@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+finguard_env/
+venv/
+.env/
+.venv/
+
+# Environment Variables (NUNCA commite secrets)
+.env
+finguard_project/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# FinGuard Outputs (gerados em runtime)
+finguard_project/output/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temp
+/tmp/
+*.tmp
